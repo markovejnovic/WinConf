@@ -2,20 +2,27 @@
 
 This is a small set of scripts which allow for downloading a set of packages. It's mainly desgined for personal use, but this does not mean it cannot be modified for wide-spread use.
 
+## Requirements
+
+These only require Windows 10.
+
 ## Getting Started
 
-Just fire up an administrative command prompt and:
+Since you won't be able to use git during the starting procedure, I recommend downloading the repo over HTTPS.
+You should copy it to your home directory (removing the -master sufix).
 
-```batch
-cd %HOMEPATH%
-git clone https://github.com/markovejnovic/WinConf.git
+Then, just fire up an administrative powershell and:
+
+```powershell
+cd ~
 cd WinConf
-install.bat
+./install.ps1
 ```
 
 ## Built With
 
 * [Autohotkey](https://autohotkey.com) - Allows for powerful windows scripting.
+* [Chocolatey](https://chocolatey.org/) - The Windows Package Manager
 
 ## License
 

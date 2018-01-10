@@ -1,0 +1,12 @@
+; This file contains the list of packages you want to get installed by Chocolatey
+; The semicolon denotes a comment and can be used to comment out elements
+; All packages are separated by newlines
+cygwin
+autohotkey
+everything
+windirstat
+arduino
+ext2fsd
+vlc
+transmission
+equalizerapo

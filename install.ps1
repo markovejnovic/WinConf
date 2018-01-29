@@ -9,9 +9,6 @@ param(
 	[switch]$y = $false
 )
 
-#TODO: Remove
-Set-PSDebug -Trace 1
-
 $HELP_MESSAGE = 
 "This script installs the software required and provided by this package.
 Command Line Arguments:

@@ -25,4 +25,8 @@ function AHK-Script-Install {
     }
 }
 
-AHK-Script-Install EverythingStartup.ahk
+if (Test-Path "C:\Program Files\AutoHotkey\AutoHotkey.exe") {
+    AHK-Script-Install EverythingStartup.ahk
+} else {
+    "AutoHotkey not found. Not installing Autohotkey scripts."
+}

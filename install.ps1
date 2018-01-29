@@ -58,4 +58,5 @@ if (-not $(Get-Command "choco" -ErrorAction SilentlyContinue)) {
 # Install cygwin tools
 . "$(Split-Path $script:MyInvocation.MyCommand.Path)\Scripts\Installation\cygwinToolsInstallation.ps1" $y
 
-#TODO: Install custom scripts
+# Install custom scripts
+. "$(Split-Path $script:MyInvocation.MyCommand.Path)\Scripts\Installation\ahkScriptsInstallation.ps1" $y

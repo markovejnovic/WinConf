@@ -55,5 +55,7 @@ if (-not $(Get-Command "choco" -ErrorAction SilentlyContinue)) {
 # Download Chocolatey Packages
 . "$(Split-Path $script:MyInvocation.MyCommand.Path)\Scripts\Installation\ChocolateyPackagesInstallation.ps1" $y
 
-#TODO: Install cygwin things
+# Install cygwin tools
+. "$(Split-Path $script:MyInvocation.MyCommand.Path)\Scripts\Installation\cygwinToolsInstallation.ps1" $y
+
 #TODO: Install custom scripts

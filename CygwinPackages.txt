@@ -1,0 +1,4 @@
+; This file contains the list of packages you want to get installed by Cygwin
+; The semicolon denotes a comment and can be used to comment out elements
+; All packages are separated by newlines
+git

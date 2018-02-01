@@ -57,3 +57,6 @@ if (-not $(Get-Command "choco" -ErrorAction SilentlyContinue)) {
 
 # Install custom scripts
 . "$(Split-Path $script:MyInvocation.MyCommand.Path)\Scripts\Installation\ahkScriptsInstallation.ps1" $y
+
+# Finally, run ReclaimWindows10
+. "$(Split-Path $script:MyInvocation.MyCommand.Path)\ReclaimWindows10\reclaimWindows10.ps1"

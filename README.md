@@ -31,3 +31,4 @@ This project is licensed under the GLPv3 License - see the [LICENSE](LICENSE) fi
 ## Acknowledgments
 
 * Like in all my README's, a thanks to [PurpleBooth](https://www.github.com/PurpleBooth) for her [README.md template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). I suck at these :(
+* A thank you to [alirobe](https://gist.github.com/alirobe) and [Disassembler0](https://github.com/Disassembler0) for their collective work on the [reclaimWindows10.ps1 script](https://github.com/Disassembler0/Win10-Initial-Setup-Script)

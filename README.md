@@ -1,3 +1,7 @@
+## This project has officially been deprecated.
+
+Due to the fact that I am unable to constantly keep up with Windows' ever-growing set of self-protection and monitoring tools, I decided to abandon the project. There is a much better and reliable post-install toolkit I'd recommend - [tronscript](https://old.reddit.com/r/TronScript/)
+
 # Windows Configuration
 
 This is a small set of scripts which allow for downloading a set of packages. It's mainly desgined for personal use, but this does not mean it cannot be modified for wide-spread use.
